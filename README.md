@@ -1,7 +1,7 @@
 # dankwebsite
 the dankest of websites
 # Quick add link to CSS and intro for new pages
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <title></title>
