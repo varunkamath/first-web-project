@@ -1,1 +1,19 @@
+#container {
+	width: full;
+	height:50px;
+	background-color: #8A8B91;
+	border-radius: 5px;
+	line-height: 45px;
+}
 
+.tabs {
+	padding: 50px;
+	text-align: center;
+	display: inline;
+	vertical-align: middle;
+	margin: 20px;
+}
+
+#intro {
+	z-index: 1;
+}
