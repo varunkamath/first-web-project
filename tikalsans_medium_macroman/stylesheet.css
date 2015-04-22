@@ -1,0 +1,37 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Latinotype
+ * License URL: http://www.fontspring.com/licenses/latinotype/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'tikal_sans_mediummedium';
+    src: url('TikalSans-Medium-webfont.eot');
+    src: url('TikalSans-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('TikalSans-Medium-webfont.woff2') format('woff2'),
+         url('TikalSans-Medium-webfont.woff') format('woff'),
+         url('TikalSans-Medium-webfont.ttf') format('truetype'),
+         url('TikalSans-Medium-webfont.svg#tikal_sans_mediummedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
