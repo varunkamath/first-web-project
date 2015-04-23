@@ -154,12 +154,15 @@ html {
 
 /*footer text and copyright*/
 
-#footer p:first-child {
+#footer .credits {
 	text-align: center;
 	vertical-align: middle;
 	color: #FFFFFF;
 	font-family: PT Serif, Serif;
 	font-size: 14px;
+	padding-bottom: 0px;
+	margin-bottom: -5px;
+	margin-top: -5px;
 }
 
 #footer .copyright {
@@ -168,6 +171,9 @@ html {
 	vertical-align: middle;
 	font-family: PT Serif, Serif;
 	font-size: 10px;
+	margin-bottom: -20px;
 }
 
-
+#footer #realcredits {
+	font-size: 9px;
+}
