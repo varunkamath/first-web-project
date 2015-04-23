@@ -1,19 +1,107 @@
-#container {
-	width: full;
-	height:50px;
-	background-color: #8A8B91;
-	border-radius: 5px;
-	line-height: 45px;
+/*font face: tikal sans*/
+
+@font-face {
+	font-family: Tikal Sans;
+	src: url(tikalsans_medium_macroman/TikalSans-Medium-webfont.eot);
+	src: url('TikalSans-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('TikalSans-Medium-webfont.woff') format('woff'),
+	     url('TikalSans-Medium-webfont.ttf') format('truetype'),
+	     url('TikalSans-Medium-webfont.svg#webfont') format('svg');
 }
 
+/*font face: PT Serif*/
+
+@font-face {
+	font-family: PT Serif;
+	src: url(PTZ55F.ttf) format('truetype')
+}
+
+/*font face: Caviar Dreams*/
+
+@font-face {
+	font-family: Caviar Dreams;
+	src: url(CaviarDreams.ttf) format('truetype');
+}
+
+/*navbar styling*/
+
+#container {
+	width: full;
+	height: 50px;
+	background-color: #464747;
+	line-height: 47px;
+	margin-top: -12px;
+	margin-left: -12px;
+	margin-right: -12px;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+/*navbar text styling*/
+
 .tabs {
-	padding: 50px;
+	padding: 35px;
 	text-align: center;
 	display: inline;
 	vertical-align: middle;
 	margin: 20px;
+	color: #CFCFCF;
+	font-size: 1.2em;
+	font-family: PT Serif, Arial, sans-serif;
 }
+
+div div span:hover {
+	color: #747474;
+}
+
+/*header styling*/
 
 #intro {
 	z-index: 1;
+	text-align: center;
+	padding-top: 10px;
+	font-family: PT Serif, Arial, sans-serif;
+}
+
+#intro h1 {
+	font-weight: lighter;
+}
+
+/*page background color*/
+
+html {
+	background-color: #CFCFCF
+}
+
+/*navbar equidistant spacing: thanks to lrktigh on stackoverflow for help */
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 150px; /*change spacing between navbar items*/
+    height: 50px;
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+}
+
+.box6 {
+	width: 15px; /*change logo spacing*/
+}
+
+.box6 {
+	background-image: url(logo2 copy.png);
+}
+
+.box6:hover {
+	background-image: url(logodark.png);
+}
+
+/*navbar conditional styling*/
+
+#container:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
