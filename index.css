@@ -25,10 +25,14 @@
 
 /*navbar styling*/
 
+body {
+	font-family: PT Serif;
+}
+
 #container {
 	width: full;
 	height: 50px;
-	background-color: #464747;
+	background: #464747 url(http://puu.sh/hoOnc/39478704e8.png);
 	line-height: 47px;
 	margin-top: -12px;
 	margin-left: -12px;
@@ -49,10 +53,16 @@
 	color: #CFCFCF;
 	font-size: 1.2em;
 	font-family: PT Serif, Arial, sans-serif;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 div div span:hover {
 	color: #747474;
+	cursor: pointer;
 }
 
 /*header styling*/
@@ -85,7 +95,7 @@ div div span:hover {
 	margin-right: -15px;
 	margin-left: -15px;
 	height: 300px;
-	background-color: #464747;
+	background: #464747 url(http://puu.sh/hoOnc/39478704e8.png);
 	margin-top: -33px;
 }
 
@@ -143,13 +153,16 @@ html {
 /*footer styling*/
 
 #footer {
-	height: 130px;
+	height: 129px;
 	width: full;
 	padding-top: 50px;
-	background-color: #464747;
+	background: #464747 url(http://puu.sh/hoOnc/39478704e8.png);
 	margin-right: -12px;
 	margin-left: -12px;
-	margin-bottom: -50px;
+	overflow: hidden;
+	margin-bottom: -100px;
+	position: relative;
+	min-height: 100%;
 }
 
 /*footer text and copyright*/
@@ -171,31 +184,9 @@ html {
 	vertical-align: middle;
 	font-family: PT Serif, Serif;
 	font-size: 10px;
-	margin-bottom: -20px;
+	margin-bottom: 0px;
 }
 
 #footer #realcredits {
 	font-size: 9px;
 }
-
-/*Table Styling for Info page*/
-
-.imagetablehead {
-	border-bottom: 3px solid #464747;
-	text-align: center;
-					
-}
-
-/*Table Image Styling for Info page*/
-
-.imagetablebody {
-	height: 305px;
-	width: 305px;
-}
-
-/*Pull Down Menu Text Styling for Info page*/
-
-.pulldownmenu:hover {
-	color: #747474;
-}
-			
