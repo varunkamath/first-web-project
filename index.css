@@ -216,6 +216,10 @@ html {
 
 table caption {
 	font-family: PT Serif;
+}
+
+table {
+	align: center;
 }	
 
 /*styling for harold picture*/
@@ -233,7 +237,7 @@ h2 {
 	font-family: PT Serif, Verdana, Serif;
 }
 
-/*credits darkbar*/
+/*pages darkbar*/
 
 #intro .darkbarcredits {
 	width: full;
@@ -248,4 +252,12 @@ h2 {
 	color: #FFFFFF;
 	padding-top: 36px;
 	font-size: 40px;
+}
+
+/*kyler's shitty table emergency styling*/
+
+caption {
+	font-size: 16px;
+	font-weight: bolder;
+
 }
