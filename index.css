@@ -225,3 +225,27 @@ table caption {
 	width: 350px;
 	border: 1px solid #464747;
 }
+
+/*credits styling*/
+
+h2 {
+	font-weight: lighter;
+	font-family: PT Serif, Verdana, Serif;
+}
+
+/*credits darkbar*/
+
+#intro .darkbarcredits {
+	width: full;
+	margin-right: -15px;
+	margin-left: -15px;
+	height: 150px;
+	background: #464747 url(http://puu.sh/hoOnc/39478704e8.png);
+	margin-top: -33px;
+}
+
+#intro .darkbarcredits h1 {
+	color: #FFFFFF;
+	padding-top: 36px;
+	font-size: 40px;
+}
