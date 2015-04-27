@@ -249,3 +249,14 @@ h2 {
 	padding-top: 36px;
 	font-size: 40px;
 }
+/*sports tab styling for the table*/
+.table {
+	height: 350px;
+	width: 350px;
+	text-align: justify;
+}
+p {
+	text-align: justify;
+	font-family: pt serif;
+}
+/*Above is the text styling for the table data*/
