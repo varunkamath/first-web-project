@@ -193,7 +193,7 @@ html {
 
 /*Table Styling for Info page*/
 
-.imagetablehead {
+table .imagetablehead {
 	border-bottom: 3px solid #464747;
 	text-align: center;
 					
@@ -201,7 +201,7 @@ html {
 
 /*Table Image Styling for Info page*/
 
-.imagetablebody {
+table .imagetablebody {
 	height: 305px;
 	width: 305px;
 }
@@ -256,4 +256,10 @@ caption {
 	font-size: 16px;
 	font-weight: bolder;
 
+}
+
+/*sports header*/
+
+.sportsheader {
+	font-weight: bolder;
 }
