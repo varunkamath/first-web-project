@@ -255,7 +255,12 @@ h2 {
 	width: 350px;
 	text-align: justify;
 }
-p {
+.table {
+	height: 350px;
+	width: 350px;
+	text-align: justify;
+}
+.paragraph {
 	text-align: justify;
 	font-family: pt serif;
 }
